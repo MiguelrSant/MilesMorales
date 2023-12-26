@@ -91,6 +91,75 @@
     justify-content: center;
   }
 }
+.cont-self {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 50px 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.cont-self .imgs-self {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+.cont-self .imgs-self .spidermiles {
+  width: 80%;
+  margin-left: 80px;
+}
+.cont-self .imgs-self .miles-text {
+  display: none;
+}
+.cont-self .text-self {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+}
+.cont-self .text-self p {
+  font-size: 16px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  padding-right: 25px;
+}
+
+@media screen and (max-width: 960px) {
+  .cont-self {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cont-self .imgs-self {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    max-width: 650px;
+    padding-top: 20px;
+  }
+  .cont-self .imgs-self .spidermiles {
+    display: none;
+  }
+  .cont-self .imgs-self .miles-text {
+    display: block;
+  }
+  .cont-self .text-self {
+    padding-top: 0;
+    width: 100%;
+    max-width: 700px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .cont-self .text-self p {
+    padding-right: 10px;
+  }
+}
 body::-webkit-scrollbar {
   width: 6px;
 }
@@ -103,6 +172,7 @@ body::-webkit-scrollbar-thumb {
 body {
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
   background: #0A0C10;
 }
 
@@ -244,11 +314,21 @@ p {
   }
 }
 
+.feka:checked {
+  position: fixed;
+  top: 45px;
+}
+
 .feka:checked ~ .menu-mobile {
+  position: fixed;
   top: 0;
   left: 0;
 }
 
+.feka:checked ~ .bx {
+  position: fixed;
+  top: 45px;
+}
 .feka:checked ~ .bx::after {
   content: "";
   display: block;
@@ -275,11 +355,13 @@ p {
 }
 
 .menu-mobile {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   z-index: 998;
   top: 0;
-  left: -300px;
-  width: 300px;
+  left: -1000px;
+  width: 70%;
   height: 100vh;
   background-color: rgb(68, 68, 68);
   padding-top: 100px;
@@ -289,8 +371,8 @@ p {
 .menu-mobile li {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 30px;
+  font-size: 25px;
   letter-spacing: 2px;
   font-weight: 200;
   color: white;
