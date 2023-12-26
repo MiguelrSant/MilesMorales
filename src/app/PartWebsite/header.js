@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
 
@@ -8,10 +10,10 @@ export default function Header() {
                     <a href="#"><img  className="logospider" src="logo-spidermanbig.svg"/></a>
                 </div>
                 <ul class="nav-list">
-                    <li><a href="" className="nav-link" >Home</a></li>
-                    <li><a href="" className="nav-link" >Story</a></li>
-                    <li><a href="" className="nav-link" >Wallpapers</a></li>
-                    <li><a href="" className="nav-link" style={{color: '#EA1D22', fontStyle: 'italic'}} >#BeYourself</a></li>
+                    <li><Link href="/" className="nav-link" >Home</Link></li>
+                    <li><Link href="/story" className="nav-link" >Story</Link></li>
+                    <li><Link href="/wallpapers" className="nav-link" >Wallpapers</Link></li>
+                    <li><Link href="/beyourself" className="nav-link" style={{color: '#EA1D22', fontStyle: 'italic'}} >#BeYourself</Link></li>
                 </ul>
             </div>
             <div className="nav-social">

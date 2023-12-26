@@ -7,14 +7,11 @@ export default function Conteiner() {
                 </div>
                 
                 <p className="item-2" style={{marginTop: '18px'}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Iaculis velit magna vitae mauris orci fames posuere nibh. 
-                    Sit tellus amet facilisi sit odio pulvinar scelerisque quam et. 
-                    Ultrices facilisis nunc massa diam, quis mi imperdiet. 
+                In the newest adventure in the Marvel's Spider-Man universe, teenager Miles Morales is adjusting to a new home while following in the footsteps of his mentor, Peter Parker, as the new Spider-Man.
                 </p>
                 <p className="mt-1 flex item-3"  style={{marginTop: '18px'}} >
-                    <span><a href="" className="btn">Pre-order now</a></span>
-                    <span><a href="" className="btn-secondary " style={{ marginLeft: '20px'}}>watch the teaser</a></span>
+                    <span><a href="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" className="btn">Pre-order now</a></span>
+                    <span><a href="https://www.youtube.com/watch?v=NTunTURbyUU" className="btn-secondary " style={{ marginLeft: '20px'}}>watch the teaser</a></span>
                 </p>
                 <p className="mt-2 flex align-items-center item-4">
 

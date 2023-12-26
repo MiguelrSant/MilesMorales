@@ -1,12 +1,8 @@
 header{
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 800;
     padding-top: 16px;
-
-    @include responsive(s){
-        position: absolute;
-      }
 }
 
 .logospider{
