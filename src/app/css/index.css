@@ -185,6 +185,7 @@ p {
   z-index: 1000;
   opacity: 0;
   margin-left: 22px;
+  cursor: pointer;
 }
 @media screen and (max-width: 960px) {
   .feka {

@@ -163,6 +163,7 @@ align-items: center;
  z-index: 1000;
  opacity: 0;
  margin-left: 22px;
+ cursor: pointer;
 
  @include responsive(s){
   display: block;

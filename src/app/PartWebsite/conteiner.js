@@ -1,17 +1,19 @@
+import Image from "next/image"
+
 export default function Conteiner() {
     return (
         <section className="container">
             <div className="container-item-1">
                 <div className="item-1" style={{marginTop: '18px'}}>
-                    <img src="spiderman-text.png"  />
+                    <img src="spiderman-text.png"  alt="img"/>
                 </div>
                 
                 <p className="item-2" style={{marginTop: '18px'}}>
-                In the newest adventure in the Marvel's Spider-Man universe, teenager Miles Morales is adjusting to a new home while following in the footsteps of his mentor, Peter Parker, as the new Spider-Man.
+                Na mais nova aventura do universo do Homem-Aranha da Marvel, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como o novo Homem-Aranha.
                 </p>
                 <p className="mt-1 flex item-3"  style={{marginTop: '18px'}} >
-                    <span><a href="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" className="btn">Pre-order now</a></span>
-                    <span><a href="https://www.youtube.com/watch?v=NTunTURbyUU" className="btn-secondary " style={{ marginLeft: '20px'}}>watch the teaser</a></span>
+                    <span><a href="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" className="btn">Comprar Agora</a></span>
+                    <span><a href="https://www.youtube.com/watch?v=NTunTURbyUU" className="btn-secondary " style={{ marginLeft: '20px'}}>Ver o TREILER</a></span>
                 </p>
                 <p className="mt-2 flex align-items-center item-4" style={{marginTop: '18px'}}>
 
@@ -32,7 +34,7 @@ export default function Conteiner() {
             </div>
             <div class="container-item-2 item-5">
             <div class="js-tilt">
-                <img src="spider-man.png" className="spiderman"/>
+                <img src="spider-man.png" className="spiderman" alt="img"/>
             </div>
         </div>
             

@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function Header() {
 
     return (
@@ -9,7 +8,7 @@ export default function Header() {
         <nav className="navbar">
             <div className="nav-menu">
                 <div className="logo">
-                    <a href="#"><img  className="logospider" src="logo-spidermanbig.svg"/></a>
+                    <a href="#"><img  className="logospider" src="logo-spidermanbig.svg"  alt="img"/></a>
                 </div>
                 <ul class="nav-list">
                     <li><Link href="/" className="nav-link" >Home</Link></li>
