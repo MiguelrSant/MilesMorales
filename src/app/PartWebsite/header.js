@@ -43,8 +43,8 @@ export default function Header() {
                 <div className="bx" style={{marginLeft: '22px'}}></div>
                 <ul className="menu-mobile">
                         <li className="nav-mobile"><Link href="/" >Home</Link></li>
-                        <li className="nav-mobile"><Link href="/wallpapers"  >Wallpapers</Link></li>
                         <li className="nav-mobile"><Link href="/story" >Story</Link></li>
+                        <li className="nav-mobile"><Link href="/wallpapers"  >Wallpapers</Link></li>
                         <li className="nav-mobile"><Link href="/beyourself" style={{color: '#EA1D22', fontStyle: 'italic'}} >#BeYourself</Link></li>
                 </ul>
             </div>

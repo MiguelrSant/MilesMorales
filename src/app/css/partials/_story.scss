@@ -1,0 +1,54 @@
+.cont-story{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 50px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    .text-miles{
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .img-text-miles img{
+            width: 85%;
+            margin-bottom: 10px;
+        }
+        .text-milel{
+            padding-top: 15px;
+            width: 80%;
+            margin-left: 25px;
+
+        }
+    }
+    .img-miles{
+        display: flex;
+        width: 40%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cont-story{
+        flex-direction: column;
+        .text-miles{
+            width: 100%;
+            margin-top: 70px;
+            margin-bottom: 40px;
+            max-width: 650px;
+        }
+        .img-miles{
+            width: 80%;
+            max-width: 700px;
+            padding-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+  }

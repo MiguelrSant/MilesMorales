@@ -11,9 +11,9 @@ export default function Conteiner() {
                 <p className="item-2" style={{marginTop: '18px'}}>
                 Na mais nova aventura do universo do Homem-Aranha da Marvel, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como o novo Homem-Aranha.
                 </p>
-                <p className="mt-1 flex item-3"  style={{marginTop: '18px'}} >
+                <p className="mt-1 flex item-3 btns"  style={{marginTop: '18px'}} >
                     <span><a href="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" className="btn">Comprar Agora</a></span>
-                    <span><a href="https://www.youtube.com/watch?v=NTunTURbyUU" className="btn-secondary " style={{ marginLeft: '20px'}}>Ver o TREILER</a></span>
+                    <span><a href="https://www.youtube.com/watch?v=NTunTURbyUU" className="btn-secondary " >Ver o TREILER</a></span>
                 </p>
                 <p className="mt-2 flex align-items-center item-4" style={{marginTop: '18px'}}>
 
